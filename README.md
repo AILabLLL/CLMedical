@@ -74,7 +74,7 @@ After downloading this repository, integrate the provided source files into the 
 
 Download the following datasets from Google Drive:
 
-- **NCT-CRC-HE-100K** (original dataset)
+- **NCT-CRC-HE-100K** (original dataset can be downloaded: https://zenodo.org/records/1214456)
 - **NCT-CRC-HE-100K-split**  
   - Train / Validation / Test split ratio: **8 : 1 : 1**
 - **NCT-CRC-HE-100K-macenko-split**  
