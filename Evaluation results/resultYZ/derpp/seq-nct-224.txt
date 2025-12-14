@@ -1,0 +1,24 @@
+==================== MODEL: derpp ====================
+
+---------- Nomin method: seq-nct-224 ----------
+
+===== MERGED Experiment 1 (seq-nct-224) | merge_count = 3 =====
+Config:
+ n_epochs: 50,
+ lr: 0.03,
+ batch_size: 64,
+ buffer_size: 500,
+ model: derpp
+accuracy_1_task1: 57.359574 ± 32.558264
+accuracy_1_task2: 95.705207 ± 1.568668
+accuracy_2_task2: 99.696346 ± 0.103200
+accuracy_1_task3: 51.558016 ± 38.048114
+accuracy_2_task3: 54.765403 ± 41.733829
+accuracy_3_task3: 53.526023 ± 40.780260
+accmean_average: 53.283147 ± 37.083955
+accmean_task1: 57.359574 ± 32.558264
+accmean_task2: 97.700777 ± 0.808741
+accmean_task3: 53.283147 ± 37.083955
+backward_transfer: -25.366251 ± 21.794071
+forgetting: 44.539067 ± 37.195413
+forward_transfer: 0.000000 ± 0.000000

@@ -1,0 +1,24 @@
+==================== MODEL: derpp ====================
+
+---------- Nomin method: seq-nct-224-perimage ----------
+
+===== MERGED Experiment 1 (seq-nct-224-perimage) | merge_count = 3 =====
+Config:
+ n_epochs: 50,
+ lr: 0.03,
+ batch_size: 64,
+ buffer_size: 500,
+ model: derpp
+accuracy_1_task1: 99.825748 ± 0.088768
+accuracy_1_task2: 95.582206 ± 2.987742
+accuracy_2_task2: 99.324126 ± 0.472920
+accuracy_1_task3: 91.717917 ± 1.798915
+accuracy_2_task3: 93.740817 ± 2.336313
+accuracy_3_task3: 93.186333 ± 3.739106
+accmean_average: 92.881689 ± 1.826675
+accmean_task1: 99.825748 ± 0.088768
+accmean_task2: 97.453166 ± 1.292348
+accmean_task3: 92.881689 ± 1.826675
+backward_transfer: -6.845570 ± 2.025352
+forgetting: 6.845570 ± 2.025352
+forward_transfer: 0.000000 ± 0.000000

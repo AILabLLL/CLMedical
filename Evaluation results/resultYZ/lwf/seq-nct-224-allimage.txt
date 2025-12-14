@@ -1,0 +1,66 @@
+==================== MODEL: lwf ====================
+
+---------- Nomin method: seq-nct-224-allimage ----------
+
+===== MERGED Experiment 1 (seq-nct-224-allimage) | merge_count = 3 =====
+Config:
+ n_epochs: 20,
+ lr: 0.001,
+ batch_size: 64,
+ buffer_size: [None, None, None]
+ model: lwf
+accuracy_1_task1: 99.559246 ± 0.443842
+accuracy_1_task2: 0.000000 ± 0.000000
+accuracy_2_task2: 99.980409 ± 0.016966
+accuracy_1_task3: 0.000000 ± 0.000000
+accuracy_2_task3: 0.000000 ± 0.000000
+accuracy_3_task3: 50.635677 ± 39.076456
+accmean_average: 16.878559 ± 13.025485
+accmean_task1: 99.559246 ± 0.443842
+accmean_task2: 49.990205 ± 0.008483
+accmean_task3: 16.878559 ± 13.025485
+backward_transfer: -99.769828 ± 0.226282
+forgetting: 99.769828 ± 0.226282
+forward_transfer: 5.426584 ± 2.089410
+
+===== MERGED Experiment 2 (seq-nct-224-allimage) | merge_count = 2 =====
+Config:
+ n_epochs: 20,
+ lr: 0.001,
+ batch_size: 64,
+ buffer_size: [None, None]
+ model: lwf
+accuracy_1_task1: 99.415744 ± 0.652313
+accuracy_1_task2: 0.000000 ± 0.000000
+accuracy_2_task2: 99.382897 ± 0.748041
+accuracy_1_task3: 0.000000 ± 0.000000
+accuracy_2_task3: 0.000000 ± 0.000000
+accuracy_3_task3: 94.025626 ± 6.215629
+accmean_average: 31.341875 ± 2.071876
+accmean_task1: 99.415744 ± 0.652313
+accmean_task2: 49.691449 ± 0.374021
+accmean_task3: 31.341875 ± 2.071876
+backward_transfer: -99.399321 ± 0.700177
+forgetting: 99.399321 ± 0.700177
+forward_transfer: 3.438143 ± 1.454525
+
+===== MERGED Experiment 3 (seq-nct-224-allimage) | merge_count = 1 =====
+Config:
+ n_epochs: 50,
+ lr: 0.001,
+ batch_size: 64,
+ buffer_size: [None]
+ model: lwf
+accuracy_1_task1: 96.156212 ± 0.000000
+accuracy_1_task2: 0.030750 ± 0.000000
+accuracy_2_task2: 100.000000 ± 0.000000
+accuracy_1_task3: 0.000000 ± 0.000000
+accuracy_2_task3: 0.000000 ± 0.000000
+accuracy_3_task3: 99.135876 ± 0.000000
+accmean_average: 33.045292 ± 0.000000
+accmean_task1: 96.156212 ± 0.000000
+accmean_task2: 50.015375 ± 0.000000
+accmean_task3: 33.045292 ± 0.000000
+backward_transfer: -98.078106 ± 0.000000
+forgetting: 98.078106 ± 0.000000
+forward_transfer: 7.669703 ± 0.000000

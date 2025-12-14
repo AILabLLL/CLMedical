@@ -1,0 +1,87 @@
+==================== MODEL: derpp ====================
+
+---------- Nomin method: seq-nct-224-allimage ----------
+
+===== MERGED Experiment 1 (seq-nct-224-allimage) | merge_count = 3 =====
+Config:
+ n_epochs: 50,
+ lr: 0.03,
+ batch_size: 64,
+ buffer_size: 500,
+ model: derpp
+accuracy_1_task1: 91.574416 ± 12.514317
+accuracy_1_task2: 96.156212 ± 0.907525
+accuracy_2_task2: 99.637575 ± 0.118761
+accuracy_1_task3: 93.603936 ± 2.512509
+accuracy_2_task3: 96.316975 ± 0.475954
+accuracy_3_task3: 94.398093 ± 3.392716
+accmean_average: 94.773001 ± 1.823917
+accmean_task1: 91.574416 ± 12.514317
+accmean_task2: 97.896893 ± 0.404435
+accmean_task3: 94.773001 ± 1.823917
+backward_transfer: -0.645540 ± 5.850585
+forgetting: 3.659070 ± 1.729523
+forward_transfer: 0.000000 ± 0.000000
+
+===== MERGED Experiment 2 (seq-nct-224-allimage) | merge_count = 3 =====
+Config:
+ n_epochs: 20,
+ lr: 0.03,
+ batch_size: 64,
+ buffer_size: 200,
+ model: derpp
+accuracy_1_task1: 92.958180 ± 11.225884
+accuracy_1_task2: 90.641656 ± 4.183662
+accuracy_2_task2: 98.893134 ± 0.483157
+accuracy_1_task3: 63.109881 ± 38.817770
+accuracy_2_task3: 76.520717 ± 23.084384
+accuracy_3_task3: 80.919746 ± 23.163592
+accmean_average: 73.516781 ± 28.313175
+accmean_task1: 92.958180 ± 11.225884
+accmean_task2: 94.767395 ± 1.958281
+accmean_task3: 73.516781 ± 28.313175
+backward_transfer: -26.110357 ± 34.836102
+forgetting: 28.652383 ± 32.098031
+forward_transfer: 0.000000 ± 0.000000
+
+===== MERGED Experiment 3 (seq-nct-224-allimage) | merge_count = 3 =====
+Config:
+ n_epochs: 20,
+ lr: 0.03,
+ batch_size: 64,
+ buffer_size: 500,
+ model: derpp
+accuracy_1_task1: 83.251333 ± 16.513068
+accuracy_1_task2: 94.782698 ± 2.617632
+accuracy_2_task2: 98.511118 ± 0.778771
+accuracy_1_task3: 63.335383 ± 50.991969
+accuracy_2_task3: 78.705064 ± 15.980879
+accuracy_3_task3: 85.071514 ± 17.234403
+accmean_average: 75.703987 ± 27.647511
+accmean_task1: 83.251333 ± 16.513068
+accmean_task2: 96.646908 ± 1.435490
+accmean_task3: 75.703987 ± 27.647511
+backward_transfer: -19.861001 ± 33.310979
+forgetting: 26.872071 ± 32.036706
+forward_transfer: 0.000000 ± 0.000000
+
+===== MERGED Experiment 4 (seq-nct-224-allimage) | merge_count = 3 =====
+Config:
+ n_epochs: 50,
+ lr: 0.03,
+ batch_size: 64,
+ buffer_size: 200,
+ model: derpp
+accuracy_1_task1: 93.450185 ± 10.294283
+accuracy_1_task2: 90.569906 ± 1.102017
+accuracy_2_task2: 99.431874 ± 0.122343
+accuracy_1_task3: 85.711357 ± 2.262256
+accuracy_2_task3: 90.430013 ± 4.851808
+accuracy_3_task3: 96.414382 ± 1.903615
+accmean_average: 90.851917 ± 1.138345
+accmean_task1: 93.450185 ± 10.294283
+accmean_task2: 95.000890 ± 0.495737
+accmean_task3: 90.851917 ± 1.138345
+backward_transfer: -8.370344 ± 5.373047
+forgetting: 9.672107 ± 3.251969
+forward_transfer: 0.000000 ± 0.000000

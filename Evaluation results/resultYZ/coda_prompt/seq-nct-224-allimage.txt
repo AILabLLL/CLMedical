@@ -1,0 +1,66 @@
+==================== MODEL: coda_prompt ====================
+
+---------- Nomin method: seq-nct-224-allimage ----------
+
+===== MERGED Experiment 1 (seq-nct-224-allimage) | merge_count = 3 =====
+Config:
+ n_epochs: 20,
+ lr: 0.001,
+ batch_size: 64,
+ buffer_size: [None, None, None]
+ model: coda-prompt
+accuracy_1_task1: 99.959000 ± 0.046972
+accuracy_1_task2: 91.799918 ± 4.902754
+accuracy_2_task2: 99.040063 ± 0.638649
+accuracy_1_task3: 85.742107 ± 4.584203
+accuracy_2_task3: 93.613478 ± 3.420937
+accuracy_3_task3: 73.708780 ± 6.137127
+accmean_average: 84.354789 ± 2.748670
+accmean_task1: 99.959000 ± 0.046972
+accmean_task2: 95.419990 ± 2.146406
+accmean_task3: 84.354789 ± 2.748670
+backward_transfer: -9.821738 ± 1.512309
+forgetting: 9.821738 ± 1.512309
+forward_transfer: 0.000000 ± 0.000000
+
+===== MERGED Experiment 2 (seq-nct-224-allimage) | merge_count = 3 =====
+Config:
+ n_epochs: 5,
+ lr: 0.001,
+ batch_size: 64,
+ buffer_size: [None, None, None]
+ model: coda-prompt
+accuracy_1_task1: 99.979500 ± 0.017754
+accuracy_1_task2: 98.257483 ± 0.869931
+accuracy_2_task2: 93.505730 ± 4.225434
+accuracy_1_task3: 90.836408 ± 1.014760
+accuracy_2_task3: 77.852875 ± 4.254997
+accuracy_3_task3: 78.138657 ± 7.222674
+accmean_average: 82.275980 ± 2.629023
+accmean_task1: 99.979500 ± 0.017754
+accmean_task2: 95.881606 ± 1.696882
+accmean_task3: 82.275980 ± 2.629023
+backward_transfer: -12.397973 ± 3.521271
+forgetting: 12.397973 ± 3.521271
+forward_transfer: 0.000000 ± 0.000000
+
+===== MERGED Experiment 3 (seq-nct-224-allimage) | merge_count = 3 =====
+Config:
+ n_epochs: 10,
+ lr: 0.001,
+ batch_size: 64,
+ buffer_size: [None, None, None]
+ model: coda-prompt
+accuracy_1_task1: 99.979500 ± 0.017754
+accuracy_1_task2: 94.167692 ± 2.392274
+accuracy_2_task2: 93.789793 ± 5.446325
+accuracy_1_task3: 84.799098 ± 5.372452
+accuracy_2_task3: 79.194828 ± 11.612537
+accuracy_3_task3: 82.111641 ± 6.964581
+accmean_average: 82.035189 ± 3.263814
+accmean_task1: 99.979500 ± 0.017754
+accmean_task2: 93.978742 ± 2.041051
+accmean_task3: 82.035189 ± 3.263814
+backward_transfer: -14.887684 ± 5.472315
+forgetting: 14.887684 ± 5.472315
+forward_transfer: 0.000000 ± 0.000000

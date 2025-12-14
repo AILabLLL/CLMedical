@@ -1,0 +1,45 @@
+==================== MODEL: ewc_on ====================
+
+---------- Nomin method: seq-nct-224-allimage ----------
+
+===== MERGED Experiment 1 (seq-nct-224-allimage) | merge_count = 1 =====
+Config:
+ n_epochs: 50,
+ lr: 0.001,
+ batch_size: 64,
+ buffer_size: [None]
+ model: ewc-on
+accuracy_1_task1: 38.837638 ± 0.000000
+accuracy_1_task2: 0.000000 ± 0.000000
+accuracy_2_task2: 98.971496 ± 0.000000
+accuracy_1_task3: 0.000000 ± 0.000000
+accuracy_2_task3: 0.000000 ± 0.000000
+accuracy_3_task3: 98.122765 ± 0.000000
+accmean_average: 32.707588 ± 0.000000
+accmean_task1: 38.837638 ± 0.000000
+accmean_task2: 49.485748 ± 0.000000
+accmean_task3: 32.707588 ± 0.000000
+backward_transfer: -68.904567 ± 0.000000
+forgetting: 68.904567 ± 0.000000
+forward_transfer: 0.000000 ± 0.000000
+
+===== MERGED Experiment 2 (seq-nct-224-allimage) | merge_count = 3 =====
+Config:
+ n_epochs: 20,
+ lr: 0.001,
+ batch_size: 64,
+ buffer_size: [None, None, None]
+ model: ewc-on
+accuracy_1_task1: 66.215662 ± 19.611811
+accuracy_1_task2: 0.276753 ± 0.162715
+accuracy_2_task2: 97.766676 ± 1.793258
+accuracy_1_task3: 0.000000 ± 0.000000
+accuracy_2_task3: 0.000000 ± 0.000000
+accuracy_3_task3: 74.473580 ± 20.775448
+accmean_average: 24.824527 ± 6.925149
+accmean_task1: 66.215662 ± 19.611811
+accmean_task2: 49.021715 ± 0.905816
+accmean_task3: 24.824527 ± 6.925149
+backward_transfer: -81.991169 ± 10.700001
+forgetting: 81.991169 ± 10.700001
+forward_transfer: 0.000000 ± 0.000000

@@ -1,0 +1,24 @@
+==================== MODEL: dualprompt ====================
+
+---------- Nomin method: seq-nct-224-macen ----------
+
+===== MERGED Experiment 1 (seq-nct-224-macen) | merge_count = 3 =====
+Config:
+ n_epochs: 5,
+ lr: 0.0075,
+ batch_size: 64,
+ buffer_size: [None, None, None]
+ model: dualprompt
+accuracy_1_task1: 98.728987 ± 0.017754
+accuracy_1_task2: 79.940549 ± 1.324883
+accuracy_2_task2: 89.440690 ± 0.925693
+accuracy_1_task3: 74.948749 ± 3.471154
+accuracy_2_task3: 76.256244 ± 1.540726
+accuracy_3_task3: 45.957489 ± 6.077813
+accmean_average: 65.720828 ± 2.268888
+accmean_task1: 98.728987 ± 0.017754
+accmean_task2: 84.690619 ± 0.949699
+accmean_task3: 65.720828 ± 2.268888
+backward_transfer: -18.482341 ± 1.642335
+forgetting: 18.482341 ± 1.642335
+forward_transfer: 0.000000 ± 0.000000

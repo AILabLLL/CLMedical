@@ -1,0 +1,45 @@
+==================== MODEL: si ====================
+
+---------- Nomin method: seq-nct-224-allimage ----------
+
+===== MERGED Experiment 1 (seq-nct-224-allimage) | merge_count = 2 =====
+Config:
+ n_epochs: 50,
+ lr: 0.001,
+ batch_size: 64,
+ buffer_size: [None, None]
+ model: si
+accuracy_1_task1: 82.887454 ± 24.157307
+accuracy_1_task2: 0.000000 ± 0.000000
+accuracy_2_task2: 99.970614 ± 0.041558
+accuracy_1_task3: 0.000000 ± 0.000000
+accuracy_2_task3: 0.000000 ± 0.000000
+accuracy_3_task3: 85.458880 ± 19.384334
+accmean_average: 28.486293 ± 6.461445
+accmean_task1: 82.887454 ± 24.157307
+accmean_task2: 49.985307 ± 0.020779
+accmean_task3: 28.486293 ± 6.461445
+backward_transfer: -91.429034 ± 12.099433
+forgetting: 91.429034 ± 12.099433
+forward_transfer: 0.000000 ± 0.000000
+
+===== MERGED Experiment 2 (seq-nct-224-allimage) | merge_count = 1 =====
+Config:
+ n_epochs: 20,
+ lr: 0.001,
+ batch_size: 64,
+ buffer_size: [None]
+ model: si
+accuracy_1_task1: 99.661747 ± 0.000000
+accuracy_1_task2: 0.000000 ± 0.000000
+accuracy_2_task2: 99.882457 ± 0.000000
+accuracy_1_task3: 0.000000 ± 0.000000
+accuracy_2_task3: 0.000000 ± 0.000000
+accuracy_3_task3: 96.066746 ± 0.000000
+accmean_average: 32.022249 ± 0.000000
+accmean_task1: 99.661747 ± 0.000000
+accmean_task2: 49.941228 ± 0.000000
+accmean_task3: 32.022249 ± 0.000000
+backward_transfer: -99.772102 ± 0.000000
+forgetting: 99.772102 ± 0.000000
+forward_transfer: 0.000000 ± 0.000000

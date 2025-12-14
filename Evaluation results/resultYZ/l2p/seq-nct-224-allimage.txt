@@ -1,0 +1,66 @@
+==================== MODEL: l2p ====================
+
+---------- Nomin method: seq-nct-224-allimage ----------
+
+===== MERGED Experiment 1 (seq-nct-224-allimage) | merge_count = 3 =====
+Config:
+ n_epochs: 5,
+ lr: 0.0075,
+ batch_size: 64,
+ buffer_size: [None, None, None]
+ model: l2p
+accuracy_1_task1: 99.887249 ± 0.046972
+accuracy_1_task2: 88.325133 ± 7.231053
+accuracy_2_task2: 97.796062 ± 1.116275
+accuracy_1_task3: 86.808118 ± 2.488116
+accuracy_2_task3: 88.030169 ± 6.075434
+accuracy_3_task3: 75.297974 ± 5.216584
+accmean_average: 83.378754 ± 1.390096
+accmean_task1: 99.887249 ± 0.046972
+accmean_task2: 93.060598 ± 4.020672
+accmean_task3: 83.378754 ± 1.390096
+backward_transfer: -11.422512 ± 1.972068
+forgetting: 11.422512 ± 1.972068
+forward_transfer: 0.097953 ± 0.072478
+
+===== MERGED Experiment 2 (seq-nct-224-allimage) | merge_count = 3 =====
+Config:
+ n_epochs: 10,
+ lr: 0.0075,
+ batch_size: 64,
+ buffer_size: [None, None, None]
+ model: l2p
+accuracy_1_task1: 99.938499 ± 0.030750
+accuracy_1_task2: 89.350144 ± 7.716571
+accuracy_2_task2: 98.599275 ± 0.510953
+accuracy_1_task3: 80.412054 ± 5.167150
+accuracy_2_task3: 78.234891 ± 5.171434
+accuracy_3_task3: 80.353596 ± 6.583153
+accmean_average: 79.666847 ± 4.205456
+accmean_task1: 99.938499 ± 0.030750
+accmean_task2: 93.974709 ± 3.607070
+accmean_task3: 79.666847 ± 4.205456
+backward_transfer: -19.945415 ± 5.298808
+forgetting: 19.945415 ± 5.298808
+forward_transfer: 0.088158 ± 0.073465
+
+===== MERGED Experiment 3 (seq-nct-224-allimage) | merge_count = 3 =====
+Config:
+ n_epochs: 20,
+ lr: 0.0075,
+ batch_size: 64,
+ buffer_size: [None, None, None]
+ model: l2p
+accuracy_1_task1: 99.917999 ± 0.046972
+accuracy_1_task2: 91.379664 ± 3.574495
+accuracy_2_task2: 98.207464 ± 1.092031
+accuracy_1_task3: 84.266093 ± 5.172027
+accuracy_2_task3: 84.268782 ± 6.569712
+accuracy_3_task3: 80.234406 ± 4.294787
+accmean_average: 82.923094 ± 2.511168
+accmean_task1: 99.917999 ± 0.046972
+accmean_task2: 94.793564 ± 1.601716
+accmean_task3: 82.923094 ± 2.511168
+backward_transfer: -14.795294 ± 3.471637
+forgetting: 14.795294 ± 3.471637
+forward_transfer: 0.112646 ± 0.103200

@@ -1,0 +1,24 @@
+==================== MODEL: dualprompt ====================
+
+---------- Nomin method: seq-nct-224-perimage ----------
+
+===== MERGED Experiment 1 (seq-nct-224-perimage) | merge_count = 3 =====
+Config:
+ n_epochs: 5,
+ lr: 0.0075,
+ batch_size: 64,
+ buffer_size: [None, None, None]
+ model: dualprompt
+accuracy_1_task1: 99.835998 ± 0.046972
+accuracy_1_task2: 95.920459 ± 0.973058
+accuracy_2_task2: 89.019493 ± 0.680543
+accuracy_1_task3: 93.388684 ± 1.965135
+accuracy_2_task3: 86.903712 ± 3.925659
+accuracy_3_task3: 58.283671 ± 6.919924
+accmean_average: 79.525356 ± 2.515527
+accmean_task1: 99.835998 ± 0.046972
+accmean_task2: 92.469976 ± 0.616242
+accmean_task3: 79.525356 ± 2.515527
+backward_transfer: -4.281547 ± 2.558161
+forgetting: 4.403988 ± 2.437885
+forward_transfer: 0.000000 ± 0.000000
