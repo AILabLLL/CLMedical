@@ -48,21 +48,6 @@ pip install -r requirements-optional.txt
 
 ---
 
-## Project Integration
-After downloading this repository, integrate the provided source files into the Mammoth framework.
-
-### File Placement
-| File / Folder | Destination |
-|--------------|-------------|
-| compute_nct_mean_std.py | mammoth/data/ |
-| splitNCT/ | mammoth/data/ |
-| preprocess_nct_macenko.py | mammoth/ |
-| seq_nct-224.py | mammoth/datasets/ |
-| seq_nct-224-allimage.py | mammoth/datasets/ |
-| seq_nct-224-macen.py | mammoth/datasets/ |
-| seq_nct-224-perimage.py | mammoth/datasets/ |
-
----
 
 ## Dataset Preparation
 Download the following datasets:
@@ -80,6 +65,22 @@ Place all datasets into:
 ```
 mammoth/data/
 ```
+
+---
+
+## Project Integration
+After downloading this repository, integrate the provided source files into the Mammoth framework.
+
+### File Placement
+| File / Folder | Destination |
+|--------------|-------------|
+| compute_nct_mean_std.py | mammoth/data/ |
+| CT-CRC-HE-100K/ | mammoth/data/ |
+| preprocess_nct_macenko.py | mammoth/ |
+| seq_nct-224.py | mammoth/datasets/ |
+| seq_nct-224-allimage.py | mammoth/datasets/ |
+| seq_nct-224-macen.py | mammoth/datasets/ |
+| seq_nct-224-perimage.py | mammoth/datasets/ |
 
 ---
 
