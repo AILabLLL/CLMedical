@@ -75,7 +75,7 @@ After downloading this repository, integrate the provided source files into the 
 | File / Folder | Destination |
 |--------------|-------------|
 | compute_nct_mean_std.py | mammoth/data/ |
-| CT-CRC-HE-100K/ | mammoth/data/ |
+| NCT-CRC-HE-100K/ | mammoth/data/ |
 | preprocess_nct_macenko.py | mammoth/ |
 | seq_nct-224.py | mammoth/datasets/ |
 | seq_nct-224-allimage.py | mammoth/datasets/ |
